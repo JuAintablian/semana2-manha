@@ -23,6 +23,23 @@
   color: #61dafb;
 }
 
+.menu {
+  width: 500px;
+  background-color: #282c34;
+  height: 300px;
+  display: none;
+}
+
+.menu.show {
+  display: block;
+}
+
+.botao{
+  background-color: #61dafb;
+  width: 30px;
+  height: 20px;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
