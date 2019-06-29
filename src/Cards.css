@@ -7,5 +7,15 @@
 
 .titulo {
     color: red;
-    
+    font-size: 20px;
+    margin: 20px;
+    text-transform: uppercase;
+}
+
+.corpo {
+    color: #333;
+    font-size: 16px;
+    line-height: 18px;
+    margin: 0 20px 0 20px;
+    padding-bottom: 20px;
 }

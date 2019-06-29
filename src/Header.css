@@ -1,0 +1,19 @@
+.header{
+    background-color: red;
+    color: #fff;
+    margin: 0;
+    height: 30px;
+    text-align: right;
+    padding: 30px;
+}
+
+.lista{
+    text-align: right;
+    margin: 0;
+    display: inline;
+}
+
+.item-lista{
+    display: inline;
+    padding: 10px;
+}

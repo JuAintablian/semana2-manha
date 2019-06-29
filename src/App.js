@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
-import Cards from './Cards.js'
+import Cards from './Cards.js';
+import Header from './Header.js';
 const API_URL = "https://jsonplaceholder.typicode.com/posts";
 
 class App extends Component {
@@ -12,21 +13,25 @@ class App extends Component {
 
   componentDidMount() {
     fetch(API_URL)
-    .then(result => {return result.json()})
-    .then(data => {
-      this.setState({
-        posts: data
+      .then(result => { return result.json() })
+      .then(data => {
+        this.setState({
+          posts: data
+        })
       })
-    })
   }
 
-  render() {  
+  render() {
     console.log(this.state.posts);
-    return (
+    return [
+      <div>
+        <Header />
+      </div>,
+    
       <div>
         <Cards posts={this.state.posts} />
       </div>
-    )
+    ]
   }
 
 }
