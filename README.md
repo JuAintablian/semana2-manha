@@ -70,3 +70,4 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 # gerador-de-Lero-Lero
 # gerador-de-Lero-Lero
 # gerador-de-Lero-Lero
+# gerador-de-Lero-Lero
